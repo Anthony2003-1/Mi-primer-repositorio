@@ -1,0 +1,318 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+#b1{
+	background-image: url(Imagenes/fondoZCP.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	}
+
+
+
+
+.Main{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1000px;
+
+	display: flex;
+	
+     flex-direction: row;
+     flex-wrap: wrap;
+    
+     margin-top: 5%;
+
+}
+
+header{
+	
+	background-color: rgba(49, 189, 237,0.8);
+	width:100%;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+	
+	
+header nav {
+	
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+
+
+header nav a{
+	text-decoration: none;
+    color: #FFFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+header nav a:hover{
+color: black;
+border-bottom: 1px solid white;
+transition: 1s all ease;
+transform: rotate(360deg);
+
+
+}
+
+.click{
+	transition: 1s all ease;
+}
+
+.active{
+color: black;
+border-bottom: 1px solid white;
+transition: 1s all ease;
+}
+
+#text-aside img{
+	max-width: 100%;
+	width: 400px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+
+
+.logotipo img{
+     max-width: 100%;
+	width: 250px;
+	height: auto;
+}
+
+
+
+.Seccion1{
+flex: 1 1 70%;
+background-color: rgba(255,255,255,0.8);
+}
+
+.Seccion1 h1{
+	font-size: 30px;
+	text-align: center;
+}
+
+.Seccion1 p{
+	font-size: 120%;
+	text-align: justify;
+	padding: 20px;
+	font-family: Georgia;
+	letter-spacing: 3px;
+	opacity: 1;
+	font-weight: 100;
+}
+
+aside{
+
+  background-color: rgba(192, 204, 229,0.8);
+  flex: 1 1 30%;
+  display: flex;
+  flex-wrap: wrap;
+  
+  padding: 30px;
+
+}
+
+aside h2 {
+   text-align: center;
+}
+
+#text-aside p{
+text-align: justify;
+font-family: Montserrat;
+color:black;
+}
+
+
+footer{
+	width: 100%;
+	background: rgba(22, 121, 178,0.8);
+	padding: 5px;
+    letter-spacing: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 5%;
+	color: white;
+	font-family: Arial;
+}
+
+#ImagenesZoe{
+    padding-left: 8%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+#ImagenesZoe img{
+max-width: 100%;
+width: 150px;
+}
+
+
+
+#last-img{
+   display: block;
+   margin: auto;
+}
+
+#last-img:hover{
+   transform: rotateY(180deg);
+   transition: all 1s ease-in-out;
+}
+
+#curiosidades img:hover{
+transform: rotateY(180deg);
+
+}
+
+
+
+
+
+/*MEDIA SCREEN*/
+
+
+@media screen and (max-width:952px ){
+    
+    .Main {
+    	flex-direction: column;
+
+    }
+
+    header{
+    	flex-direction: column;
+    	padding: 0;
+    }
+
+    header nav {
+    	width: 100%;
+    }
+
+}
+
+
+
+/*Página 2*/
+
+#b2{
+	background-image: url(Imagenes/fondoZAC.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.IMG-H{
+	opacity: 1;
+	display: block;
+	margin: auto;
+	height: 500px;
+	width: 300px;
+	max-width: 100%;
+}
+
+/*Página 3*/
+
+#b3{
+	background-image: url(Imagenes/fondoZVG.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#texto-F p {
+	text-align: center;
+}
+
+audio{
+	display: block;
+	margin: 0 auto;
+	
+}
+
+
+
+
+
+/*---------------Media Query-----------------*/
+
+@media screen and (max-width: 345px){
+	header{
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 360px){
+	#ImagenesZoe img{
+		display: block;
+		margin: auto;
+	}
+}
+
+
+@media screen and (max-width: 724px){
+	#ImagenesZoe img{
+		display: block;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 952px){
+	#ImagenesZoe img{
+		display: block;
+		margin: auto;
+	}
+
+	#img-aside img{
+		width: 1000px;
+	}
+
+	#curiosidades img{
+		width: 300px;
+		
+	}
+	
+}
+
+@media screen and (max-width: 470px){
+	footer p{
+		font-size: 8px;
+		letter-spacing: 5px;
+	}
+}
+
+@media screen and (max-width: 335px){
+	audio{
+		width: 250px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
